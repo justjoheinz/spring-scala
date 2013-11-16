@@ -26,6 +26,12 @@ For Maven users:
         <artifactId>spring-scala</artifactId>
         <version>1.0.0.M2</version>
     </dependency>
+
+For sbt / scala 2.10 users:
+
+    resolvers += "Springsource" at "http://repo.springsource.org/milestone"
+    ...
+    libraryDependencies += "org.springframework.scala" %%"spring-scala" % "1.0.0.RC1"
     
 ## Snapshots
 
@@ -44,7 +50,7 @@ For Maven users:
         <artifactId>spring-scala</artifactId>
         <version>1.0.0.BUILD-SNAPSHOT</version>
     </dependency>
-
+    
 ## Building from Source
 
 Spring Scala uses a [Gradle](http://gradle.org)-based build system.
